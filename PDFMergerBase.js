@@ -1,4 +1,4 @@
-import { PDFDocument } from 'pdf-lib'
+import { PDFDocument } from '@cantoo/pdf-lib'
 
 import { parsePagesString } from './parsePagesString.js'
 
@@ -26,7 +26,7 @@ export default class PDFMergerBase {
   /**
    * The load options for pdf-lib.
    *
-   * @type { import('pdf-lib').LoadOptions }
+   * @type { import('@cantoo/pdf-lib').LoadOptions }
    * @protected
    */
   _loadOptions = {
